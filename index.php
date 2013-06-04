@@ -25,23 +25,22 @@
 	<select id="numberOne">
     <?php for ($i=2; $i<=20; $i++){
   		echo "<option value=".$i.">".$i."</option>";
-		$numberOne = i;
+			$numberOne=$i;
 	}?>
 	</select>
     
     <!---SELECT BOX 2 --->
 	<select id="numberTwo">
-    <?php for ($i=2; $i<=20; $i++){
+    <?php for ($i=3; $i<=20; $i++){
   		echo "<option value=".$i.">".$i."</option>";
-		$numberTwo = i;
+			$numberTwo=$i;
 	}?>
 	</select>    
     
     <!---LINKS TO THE QUIZ PAGE AND PASSES THE TABLE VARIABLES--->
-    <p><a href="quiz.php?numberOne=4&numberTwo=6">START</a></p>
+    <p><a href="quiz.php?numberOne=12&numberTwo=<?php echo $numberTwo;?>">START</a></p>
 
 </div>
-
 
 
 

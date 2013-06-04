@@ -8,7 +8,7 @@ $(document).ready(function(){
 		var var_number = parseInt($('#numberOne').val());
 		if(var_number < 20){
 			var_number = var_number+1;
-			console.log("Number " + var_number + " was selected");
+			console.log("Number " + var_number-1 + " was selected");
 			}
 		
 		// THIS CHANGES THE SECOND SELECTOR BASED ON THE FIRST SELECTOR
