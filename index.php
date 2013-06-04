@@ -23,7 +23,7 @@
  
     <!---SELECTBOX 1 --->
 	<select id="numberOne">
-    <?php for ($i=2; $i<=20; $i++){
+    <?php for ($i=2; $i<=19; $i++){
   		echo "<option value=".$i.">".$i."</option>";
 			$numberOne=$i;
 	}?>
