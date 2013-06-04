@@ -38,7 +38,7 @@
 	</select>    
     
     <!---LINKS TO THE QUIZ PAGE AND PASSES THE TABLE VARIABLES--->
-    <p><a href="quiz.php?numberOne=12&numberTwo=<?php echo $numberTwo;?>">START</a></p>
+    <p id=startButton><a href="quiz.php?numberOne=2&numberTwo=3">START</a></p>
 
 </div>
 

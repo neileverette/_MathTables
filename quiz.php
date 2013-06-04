@@ -22,8 +22,8 @@
     <?php
 		$numberOne = $_GET['numberOne'];
 		$numberTwo = $_GET['numberTwo'];
-		$sum = $numberOne + $numberTwo; 
-		echo $numberOne + $numberTwo; 
+		//$sum = $numberOne + $numberTwo; 
+		echo $numberOne. " x ". $numberTwo; 
 	?>
     
     <p><a href="answer.php">ANSWER</a></p>
