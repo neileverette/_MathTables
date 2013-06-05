@@ -4,9 +4,8 @@ $(document).ready(function(){
 	update();	
 })
 
-
 $('#numberOne').change(function(){
-	update();	
+	update();
 })
 
 function update(){
@@ -33,3 +32,4 @@ function update(){
 	});
 
 }
+
